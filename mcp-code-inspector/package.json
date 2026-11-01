@@ -1,0 +1,14 @@
+{
+  "name": "mcp-code-inspector",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for deep code inspection, static analysis, and syntax validation",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.2.0"
+  }
+}
